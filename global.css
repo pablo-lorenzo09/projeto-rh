@@ -3,13 +3,21 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .pai{
     display: flex;
+    width: 1440px;
+    height: 900px;
 }
 
 .section-imagem{
     width: 70vw;
-    z-index: 1;
 }
 
 
@@ -23,6 +31,7 @@
     color: #FF0000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 64px;
+    padding: 100px 0px 100px 0px;
 }
 
 .section-infos h2{
