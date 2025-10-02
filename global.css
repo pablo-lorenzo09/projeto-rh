@@ -8,12 +8,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .pai{
     display: flex;
     width: 1440px;
     height: 900px;
+    background-color: rgb(248, 248, 248);
 }
 
 .section-imagem{
@@ -23,7 +25,7 @@ body{
 
 .section-infos{
     width: 100vw;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .section-infos h1{
@@ -31,7 +33,7 @@ body{
     color: #FF0000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 64px;
-    padding: 100px 0px 100px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
 .section-infos h2{
@@ -40,29 +42,36 @@ body{
     font-style: italic;
     text-align: right;
     font-weight: 1;
+    padding-bottom: 50px;
 }
 
 .section-infos h3{
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
+    font-size: 20px;
+    font-weight:200;
+    color: #898B8D;
 }
 
 .section-infos p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
-    font-weight: 100;
+    font-weight: 1;  
+    font-size: 25px;
+    color: #898B8D;
+    padding-bottom: 30px;
 
 }
-
+    
 .ultimo-paragrafo{
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
+    color: white;
 }
-    
 
 .logos img{
-    width: 150px;
-    height: 50px;
+    width:150px;
+    height:50px;
 }
 
 .logos {
