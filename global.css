@@ -9,11 +9,13 @@
 
 .section-imagem{
     width: 70vw;
+    z-index: 1;
 }
 
 
 .section-infos{
-    width: 50vw;
+    width: 100vw;
+    margin-right: 30px;
 }
 
 .section-infos h1{
@@ -31,7 +33,36 @@
     font-weight: 1;
 }
 
+.section-infos h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.section-infos p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-weight: 100;
+
+}
+
+.ultimo-paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+    
+
 .logos img{
     width: 150px;
     height: 50px;
+}
+
+.logos {
+    display: flex;
+    justify-content: flex-end;   
+    gap: 20px;
+}
+
+.faixa-vermelha{
+    background-color: #FF0000;
+
 }
