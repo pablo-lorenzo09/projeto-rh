@@ -1,7 +1,7 @@
 {
   "name": "projetin",
   "version": "1.0.0",
-  "description": "REplicação da página de atualização de cadastro do RH SENSAI",
+  "description": "Replicação da página de atualização de cadastro do RH SENAI",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
